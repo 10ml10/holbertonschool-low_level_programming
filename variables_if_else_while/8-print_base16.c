@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Affiche les chiffres de base 16 en minuscules, suivis d'un retour à la ligne
+ * main - Affiche les chiffres de base 16 en minuscules
  * suivis d'un retour à la ligne
  *
  * Return: Toujours 0
