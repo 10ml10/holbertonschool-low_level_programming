@@ -1,13 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in uppercase then lowercase
+ * main - Prints lowercase then uppercase alphabet
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'A';
+	char c = 'a';  
+
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	c = 'A';  
 
 	while (c <= 'Z')
 	{
@@ -15,14 +23,8 @@ int main(void)
 		c++;
 	}
 
-	c = 'a';
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}
+	putchar('\n');  
 
-	putchar('\n');
 	return (0);
 }
 
