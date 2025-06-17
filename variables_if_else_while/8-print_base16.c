@@ -2,6 +2,7 @@
 
 /**
  * main - Affiche les chiffres de base 16 en minuscules, suivis d'un retour à la ligne
+ * suivis d'un retour à la ligne
  *
  * Return: Toujours 0
  */
