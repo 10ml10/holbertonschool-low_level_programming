@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - affiche l'alphabet minuscules sans q et e, suivi d'un retour à la ligne
+ * main - affiche l'alphabet minuscules sans q et e,
+ *        suivi d'un retour à la ligne
  *
  * Return: toujours 0
  */
