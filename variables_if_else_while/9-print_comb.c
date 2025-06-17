@@ -1,35 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - Affiche toutes les combinaisons possibles de deux chiffres
- *        dans l’ordre croissant, séparées par ", ", sans répétition.
+ * main - Affiche tous les chiffres de 0 à 9 séparés par une virgule
+ *        et un espace, suivi d'un retour à la ligne.
  *
  * Return: Toujours 0
  */
 int main(void)
 {
-	int i = 0;
-	int j;
+	int chiffre;
 
-	while (i <= 8)
+	for (chiffre = 0; chiffre <= 9; chiffre++)
 	{
-		j = i + 1;
-		while (j <= 9)
+		putchar(chiffre + '0');
+
+		if (chiffre != 9)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-
-			if (i != 8 || j != 9)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-
-			j++;
+			putchar(',');
+			putchar(' ');
 		}
-		i++;
 	}
-
 	putchar('\n');
 
 	return (0);
