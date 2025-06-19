@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - imprime l'alphabet et le répète 10x,
- * suivi par un saut de ligne 
+ * print_alphabet_x10 - imprime l'alphabet en minuscules 10 fois,
+ * chaque ligne suivie d'un saut de ligne
  *
- * Return:0
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
