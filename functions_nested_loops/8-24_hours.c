@@ -15,11 +15,11 @@ void jack_bauer(void)
 	{
 		for (minute = 0; minute < 60; minute++)
 		{
-			_putchar((heure / 10) + '0');  /* Affiche le chiffre des dizaines d'heure */
-			_putchar((heure % 10) + '0');  /* Affiche le chiffre des unités d'heure */
+			_putchar((heure / 10) + '0');
+			_putchar((heure % 10) + '0');
 			_putchar(':');
-			_putchar((minute / 10) + '0'); /* Affiche le chiffre des dizaines de minute */
-			_putchar((minute % 10) + '0'); /* Affiche le chiffre des unités de minute */
+			_putchar((minute / 10) + '0');
+			_putchar((minute % 10) + '0');
 			_putchar('\n');
 		}
 	}
